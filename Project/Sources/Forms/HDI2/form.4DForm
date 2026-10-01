@@ -71,7 +71,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -90,7 +91,9 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"Variable1": {
 					"type": "input",
@@ -105,7 +108,9 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"Variable2": {
 					"type": "input",
@@ -115,7 +120,6 @@
 					"height": 16,
 					"dataSource": "Calculation.add()",
 					"dataSourceTypeHint": "number",
-					"stroke": "#808080",
 					"fontWeight": "bold",
 					"focusable": false,
 					"enterable": false,
@@ -124,7 +128,9 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"class": "hdi-readonly",
+					"fill": "automatic"
 				},
 				"Variable3": {
 					"type": "input",
@@ -134,7 +140,6 @@
 					"height": 16,
 					"dataSource": "Calculation.subtract()",
 					"dataSourceTypeHint": "number",
-					"stroke": "#808080",
 					"fontWeight": "bold",
 					"focusable": false,
 					"enterable": false,
@@ -143,7 +148,9 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"class": "hdi-readonly",
+					"fill": "automatic"
 				},
 				"Variable4": {
 					"type": "input",
@@ -153,7 +160,6 @@
 					"height": 16,
 					"dataSource": "Calculation.multiply()",
 					"dataSourceTypeHint": "number",
-					"stroke": "#808080",
 					"fontWeight": "bold",
 					"focusable": false,
 					"enterable": false,
@@ -162,7 +168,9 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"class": "hdi-readonly",
+					"fill": "automatic"
 				},
 				"Variable5": {
 					"type": "input",
@@ -172,7 +180,6 @@
 					"height": 16,
 					"dataSource": "Calculation.divide()",
 					"dataSourceTypeHint": "number",
-					"stroke": "#808080",
 					"fontWeight": "bold",
 					"focusable": false,
 					"enterable": false,
@@ -181,7 +188,9 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"class": "hdi-readonly",
+					"fill": "automatic"
 				},
 				"Variable6": {
 					"type": "input",
@@ -200,7 +209,8 @@
 					"dropping": "none",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable7": {
 					"type": "input",
@@ -219,7 +229,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable8": {
 					"type": "input",
@@ -238,7 +249,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable9": {
 					"type": "input",
@@ -257,7 +269,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable10": {
 					"type": "input",
@@ -276,7 +289,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable11": {
 					"type": "input",
@@ -295,7 +309,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable12": {
 					"type": "input",
@@ -314,7 +329,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable13": {
 					"type": "input",
@@ -332,7 +348,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable14": {
 					"type": "input",
@@ -350,7 +367,8 @@
 					"dropping": "none",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable21": {
 					"type": "input",
@@ -368,7 +386,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Text": {
 					"type": "text",
@@ -378,7 +397,8 @@
 					"height": 18,
 					"fontFamily": "Calibri",
 					"fontSize": 14,
-					"text": "Detail of Calculation object:"
+					"text": ":xliff:HDI2_LabelCalculation",
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -409,9 +429,6 @@
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -420,7 +437,7 @@
 							],
 							"header": {
 								"name": "Header1",
-								"text": "First name",
+								"text": ":xliff:HDI2_HeaderFirstName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -430,8 +447,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column2",
@@ -439,9 +458,6 @@
 							"width": 80,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -450,7 +466,7 @@
 							],
 							"header": {
 								"name": "Header2",
-								"text": "Last name",
+								"text": ":xliff:HDI2_HeaderLastName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -460,8 +476,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column3",
@@ -469,9 +487,6 @@
 							"width": 135,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -480,7 +495,7 @@
 							],
 							"header": {
 								"name": "Header3",
-								"text": "Display name",
+								"text": ":xliff:HDI2_HeaderDisplayName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -490,75 +505,80 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate"
 				},
 				"Button": {
 					"type": "button",
 					"top": 194,
 					"left": 467,
 					"width": 290,
-					"height": 27,
-					"text": "Last name",
+					"text": ":xliff:HDI2_BtnLastName",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button1": {
 					"type": "button",
 					"top": 340,
 					"left": 467,
 					"width": 290,
-					"height": 27,
-					"text": "LAST NAME, first name",
+					"text": ":xliff:HDI2_BtnLastFirstUpper",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button2": {
 					"type": "button",
 					"top": 267,
 					"left": 467,
 					"width": 290,
-					"height": 27,
-					"text": "First name",
+					"text": ":xliff:HDI2_BtnFirstName",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button3": {
 					"type": "button",
 					"top": 413,
 					"left": 467,
 					"width": 290,
-					"height": 27,
-					"text": "Uppercase",
+					"text": ":xliff:HDI2_BtnUppercase",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button4": {
 					"type": "button",
 					"top": 486,
 					"left": 467,
 					"width": 290,
-					"height": 27,
-					"text": "Lowercase",
+					"text": ":xliff:HDI2_BtnLowercase",
 					"focusable": false,
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable15": {
 					"type": "input",
@@ -577,7 +597,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable16": {
 					"type": "input",
@@ -596,7 +617,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable17": {
 					"type": "input",
@@ -615,7 +637,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable18": {
 					"type": "input",
@@ -634,7 +657,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable19": {
 					"type": "input",
@@ -653,7 +677,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable20": {
 					"type": "input",
@@ -671,7 +696,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable22": {
 					"type": "input",
@@ -689,7 +715,8 @@
 					"dropping": "none",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable23": {
 					"type": "input",
@@ -707,7 +734,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				}
 			}
 		}

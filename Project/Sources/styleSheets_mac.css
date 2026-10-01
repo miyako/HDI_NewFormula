@@ -19,3 +19,24 @@
 	font-weight: bold;
 }
 
+
+/* Liquid Glass push buttons need at least 27px to get the rounded variant */
+@media (form-theme: liquid-glass) {
+	.default {
+		height: 27px;
+	}
+
+	button.default {
+		height: 27px;
+	}
+}
+
+@media (form-theme: mac-classic) {
+	.default {
+		height: 23px;
+	}
+
+	button.default {
+		height: 23px;
+	}
+}

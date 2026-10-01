@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Project/Sources/TableForms/1/Input/form.4DForm" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="INFO_Input_PageNumber" resname="INFO_Input_PageNumber">
+				<source>Page number:</source>
+				<target>ページ番号:</target>
+			</trans-unit>
+			<trans-unit id="INFO_Input_TabTitle" resname="INFO_Input_TabTitle">
+				<source>Tab Title:</source>
+				<target>タブのタイトル:</target>
+			</trans-unit>
+			<trans-unit id="INFO_Output_Page" resname="INFO_Output_Page">
+				<source>Page:</source>
+				<target>ページ:</target>
+			</trans-unit>
+			<trans-unit id="INFO_Output_Title" resname="INFO_Output_Title">
+				<source>Title</source>
+				<target>タイトル</target>
+			</trans-unit>
+			<trans-unit id="INFO_Output_Description" resname="INFO_Output_Description">
+				<source>Description</source>
+				<target>説明</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -58,7 +58,8 @@
 					"width": 64,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Page:"
+					"text": ":xliff:INFO_Output_Page",
+					"class": "hdi-header"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -67,7 +68,8 @@
 					"width": 240,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Title"
+					"text": ":xliff:INFO_Output_Title",
+					"class": "hdi-header"
 				},
 				"Rectangle4": {
 					"type": "rectangle",
@@ -76,7 +78,8 @@
 					"width": 616,
 					"height": 25,
 					"sizingX": "grow",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"fill": "automatic"
 				},
 				"S1_Field": {
 					"type": "input",
@@ -104,7 +107,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"S2_Field": {
 					"type": "input",
@@ -114,7 +118,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[INFO:1]TabTitle:3",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -129,7 +133,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"S2_Field1": {
 					"type": "input",
@@ -139,7 +144,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[INFO:1]Description:2",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"styledText": true,
 					"contextMenu": "none",
@@ -155,14 +160,15 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Line5": {
 					"type": "line",
 					"top": -5,
 					"left": 0,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "hdi-separator"
 				},
 				"Line6": {
 					"type": "line",
@@ -170,14 +176,14 @@
 					"left": 376,
 					"height": 49,
 					"sizingX": "move",
-					"stroke": "#A8A8A8"
+					"class": "hdi-separator"
 				},
 				"Line7": {
 					"type": "line",
 					"top": -5,
 					"left": 104,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "hdi-separator"
 				},
 				"Splitter2": {
 					"type": "splitter",
@@ -198,7 +204,8 @@
 					"width": 240,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Description"
+					"text": ":xliff:INFO_Output_Description",
+					"class": "hdi-header"
 				}
 			}
 		}

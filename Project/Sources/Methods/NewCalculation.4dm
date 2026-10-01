@@ -1,6 +1,6 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // Initialize a new Calculation object
-C_OBJECT:C1216($calc; $0)
+#DECLARE->$calc : Object
 
 $calc:=New object:C1471
 
@@ -14,5 +14,3 @@ $calc.subtract:=Formula:C1597(This:C1470.value1-This:C1470.value2)
 // binding of a method to an object
 $calc.multiply:=Formula:C1597(multiply)
 $calc.divide:=Formula:C1597(divide)
-
-$0:=$calc

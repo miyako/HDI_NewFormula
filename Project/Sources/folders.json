@@ -23,8 +23,7 @@
 	},
 	"Default Project Methods": {
 		"methods": [
-			"00_Start",
-			"m_Quit"
+			"00_Start"
 		]
 	},
 	"Default Tables": {

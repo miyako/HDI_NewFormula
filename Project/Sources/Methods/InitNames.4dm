@@ -1,8 +1,8 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // Init the value of  the collection
-C_COLLECTION:C1488($0)
+#DECLARE->$names : Collection
 
-$0:=New collection:C1472(\
+$names:=New collection:C1472(\
 New object:C1471("lastName"; "Loriot"; "firstName"; "Cyril"; "displayName"; ""); \
 New object:C1471("lastName"; "Diguet"; "firstName"; "Joseph"; "displayName"; ""); \
 New object:C1471("lastName"; "Cochet"; "firstName"; "Joyce"; "displayName"; ""); \

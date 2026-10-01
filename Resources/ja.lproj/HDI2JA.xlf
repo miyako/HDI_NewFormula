@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Project/Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="HDI2_HeaderFirstName" resname="HDI2_HeaderFirstName">
+				<source>First name</source>
+				<target>名</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderLastName" resname="HDI2_HeaderLastName">
+				<source>Last name</source>
+				<target>姓</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderDisplayName" resname="HDI2_HeaderDisplayName">
+				<source>Display name</source>
+				<target>表示名</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnLastName" resname="HDI2_BtnLastName">
+				<source>Last name</source>
+				<target>姓</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnLastFirstUpper" resname="HDI2_BtnLastFirstUpper">
+				<source>LAST NAME, first name</source>
+				<target>LAST NAME, first name</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnFirstName" resname="HDI2_BtnFirstName">
+				<source>First name</source>
+				<target>名</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnUppercase" resname="HDI2_BtnUppercase">
+				<source>Uppercase</source>
+				<target>大文字</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnLowercase" resname="HDI2_BtnLowercase">
+				<source>Lowercase</source>
+				<target>小文字</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelCalculation" resname="HDI2_LabelCalculation">
+				<source>Detail of Calculation object:</source>
+				<target>Calculation オブジェクトの詳細:</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
